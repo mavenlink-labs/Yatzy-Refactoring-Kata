@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70c7f92e-cf50-43cb-be58-70df41789b6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruby/test_yatzy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ruby/test_yatzy.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ruby/yatzy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ruby/yatzy.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,14 +70,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634766197537</updated>
-      <workItem from="1634766198641" duration="602000" />
+      <workItem from="1634766198641" duration="1189000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="2316" height="407" key="GridCell.Tab.0.bottom" timestamp="1634767590671">
+      <screen x="-2560" y="-336" width="2560" height="1417" />
+    </state>
+    <state width="2316" height="407" key="GridCell.Tab.0.bottom/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767590671" />
+    <state width="2316" height="407" key="GridCell.Tab.0.center" timestamp="1634767590670">
+      <screen x="-2560" y="-336" width="2560" height="1417" />
+    </state>
+    <state width="2316" height="407" key="GridCell.Tab.0.center/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767590670" />
+    <state width="2316" height="407" key="GridCell.Tab.0.left" timestamp="1634767590669">
+      <screen x="-2560" y="-336" width="2560" height="1417" />
+    </state>
+    <state width="2316" height="407" key="GridCell.Tab.0.left/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767590669" />
+    <state width="2316" height="407" key="GridCell.Tab.0.right" timestamp="1634767590670">
+      <screen x="-2560" y="-336" width="2560" height="1417" />
+    </state>
+    <state width="2316" height="407" key="GridCell.Tab.0.right/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767590670" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Yatzy_Refactoring_Kata@test_yatzy.rcov" NAME="test_yatzy Coverage Results" MODIFIED="1634766843862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Yatzy-Refactoring-Kata" />
+    <SUITE FILE_PATH="coverage/Yatzy_Refactoring_Kata@test_yatzy.rcov" NAME="test_yatzy Coverage Results" MODIFIED="1634767590660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Yatzy-Refactoring-Kata" />
   </component>
 </project>

@@ -18,10 +18,10 @@ class YatzyTest < Test::Unit::TestCase
   end
 
   def test_1s
-    assert Yatzy.addOfAKind(1,2,3,4,5, 1) == 1
-    assert 2 == Yatzy.addOfAKind(1,2,1,4,5, 1)
-    assert 0 == Yatzy.addOfAKind(6,2,2,4,5, 1)
-    assert 4 == Yatzy.addOfAKind(1,2,1,1,1, 1)
+    assert Yatzy.new(1, 2, 3, 4, 5).addOfAKind(1) == 1
+    assert 2 == Yatzy.new(1,2,1,4,5).addOfAKind(1)
+    assert 0 == Yatzy.new(6,2,2,4,5).addOfAKind(1)
+    assert 4 == Yatzy.new(1,2,1,1,1).addOfAKind(1)
   end
 
   def test_2s
@@ -30,8 +30,8 @@ class YatzyTest < Test::Unit::TestCase
   end
 
   def test_threes
-    assert 6 == Yatzy.threes(1,2,3,2,3)
-    assert 12 == Yatzy.threes(2,3,3,3,3)
+    assert 6 == Yatzy.addOfAKind(1,2,3,2,3, 3)
+    assert 12 == Yatzy.addOfAKind(2,3,3,3,3, 3)
   end
 
   def test_fours_test
