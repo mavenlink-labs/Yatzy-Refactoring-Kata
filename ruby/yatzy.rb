@@ -22,25 +22,12 @@ class Yatzy
     return 0
   end
 
-  def self.ones( d1,  d2,  d3,  d4,  d5)
+  def self.addOfAKind( d1,  d2,  d3,  d4,  d5, value)
     sum = 0
-    if (d1 == 1)
-      sum += 1
+    [d1, d2, d3, d4, d5].each do |dice|
+      sum += dice if dice == value
     end
-    if (d2 == 1)
-      sum += 1
-    end
-    if (d3 == 1)
-      sum += 1
-    end
-    if (d4 == 1)
-      sum += 1
-    end
-    if (d5 == 1)
-      sum += 1
-    end
-
-    sum
+    return sum
   end
 
   def self.twos( d1,  d2,  d3,  d4,  d5)
