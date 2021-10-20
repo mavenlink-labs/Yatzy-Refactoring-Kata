@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70c7f92e-cf50-43cb-be58-70df41789b6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruby/test_yatzy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ruby/test_yatzy.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruby/yatzy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ruby/yatzy.rb" afterDir="false" />
-    </list>
+    <list default="true" id="70c7f92e-cf50-43cb-be58-70df41789b6b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +19,44 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_1s">
+    <configuration name="test_1s" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="Yatzy-Refactoring-Kata" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/ruby/test_yatzy.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_1s$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_yatzy" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="Yatzy-Refactoring-Kata" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -57,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_1s" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_yatzy" />
       </list>
     </recent_temporary>
@@ -70,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634766197537</updated>
-      <workItem from="1634766198641" duration="1189000" />
+      <workItem from="1634766198641" duration="1471000" />
     </task>
     <servers />
   </component>
@@ -78,24 +110,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2316" height="407" key="GridCell.Tab.0.bottom" timestamp="1634767590671">
+    <state width="2316" height="407" key="GridCell.Tab.0.bottom" timestamp="1634767694705">
       <screen x="-2560" y="-336" width="2560" height="1417" />
     </state>
-    <state width="2316" height="407" key="GridCell.Tab.0.bottom/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767590671" />
-    <state width="2316" height="407" key="GridCell.Tab.0.center" timestamp="1634767590670">
+    <state width="2316" height="407" key="GridCell.Tab.0.bottom/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767694705" />
+    <state width="2316" height="407" key="GridCell.Tab.0.center" timestamp="1634767694705">
       <screen x="-2560" y="-336" width="2560" height="1417" />
     </state>
-    <state width="2316" height="407" key="GridCell.Tab.0.center/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767590670" />
-    <state width="2316" height="407" key="GridCell.Tab.0.left" timestamp="1634767590669">
+    <state width="2316" height="407" key="GridCell.Tab.0.center/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767694705" />
+    <state width="2316" height="407" key="GridCell.Tab.0.left" timestamp="1634767694705">
       <screen x="-2560" y="-336" width="2560" height="1417" />
     </state>
-    <state width="2316" height="407" key="GridCell.Tab.0.left/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767590669" />
-    <state width="2316" height="407" key="GridCell.Tab.0.right" timestamp="1634767590670">
+    <state width="2316" height="407" key="GridCell.Tab.0.left/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767694705" />
+    <state width="2316" height="407" key="GridCell.Tab.0.right" timestamp="1634767694705">
       <screen x="-2560" y="-336" width="2560" height="1417" />
     </state>
-    <state width="2316" height="407" key="GridCell.Tab.0.right/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767590670" />
+    <state width="2316" height="407" key="GridCell.Tab.0.right/0.23.1792.1097/-2560.-336.2560.1417@-2560.-336.2560.1417" timestamp="1634767694705" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Yatzy_Refactoring_Kata@test_1s.rcov" NAME="test_1s Coverage Results" MODIFIED="1634767693310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Yatzy-Refactoring-Kata" />
     <SUITE FILE_PATH="coverage/Yatzy_Refactoring_Kata@test_yatzy.rcov" NAME="test_yatzy Coverage Results" MODIFIED="1634767590660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Yatzy-Refactoring-Kata" />
   </component>
 </project>
