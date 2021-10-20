@@ -83,6 +83,26 @@ class Yatzy
     return s
   end
 
+  def self.sixes( d1,  d2,  d3,  d4,  d5)
+    s = 0
+    if (d1 == 6)
+      s += 6
+    end
+    if (d2 == 6)
+      s += 6
+    end
+    if (d3 == 6)
+      s += 6
+    end
+    if (d4 == 6)
+      s += 6
+    end
+    if (d5 == 6)
+      s += 3
+    end
+    return s
+  end
+
   def initialize(d1, d2, d3, d4, _5)
     @dice = [0]*5
     @dice[0] = d1
