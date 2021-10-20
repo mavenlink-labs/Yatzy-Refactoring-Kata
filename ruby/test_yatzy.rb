@@ -25,31 +25,31 @@ class YatzyTest < Test::Unit::TestCase
   end
 
   def test_2s
-    assert Yatzy.addOfAKind(1,2,3,2,6, 2) == 4
-    assert Yatzy.addOfAKind(2,2,2,2,2, 2) == 10
+    assert Yatzy.new(1,2,3,2,6).addOfAKind(2) == 4
+    assert Yatzy.new(2,2,2,2,2).addOfAKind(2) == 10
   end
 
   def test_threes
-    assert 6 == Yatzy.addOfAKind(1,2,3,2,3, 3)
-    assert 12 == Yatzy.addOfAKind(2,3,3,3,3, 3)
+    assert 6 == Yatzy.new(1,2,3,2,3).addOfAKind(3)
+    assert 12 == Yatzy.new(2,3,3,3,3).addOfAKind(3)
   end
 
   def test_fours_test
-    assert 12 == Yatzy.new(4,4,4,5,5).fours
-    assert 8 == Yatzy.new(4,4,5,5,5).fours
-    assert 4 == Yatzy.new(4,5,5,5,5).fours
+    assert 12 == Yatzy.new(4,4,4,5,5).addOfAKind(4)
+    assert 8 == Yatzy.new(4,4,5,5,5).addOfAKind(4)
+    assert 4 == Yatzy.new(4,5,5,5,5).addOfAKind(4)
   end
 
   def test_fives()
-    assert 10 == Yatzy.new(4,4,4,5,5).fives()
-    assert 15 == Yatzy.new(4,4,5,5,5).fives()
-    assert 20 == Yatzy.new(4,5,5,5,5).fives()
+    assert 10 == Yatzy.new(4,4,4,5,5).addOfAKind(5)
+    assert 15 == Yatzy.new(4,4,5,5,5).addOfAKind(5)
+    assert 20 == Yatzy.new(4,5,5,5,5).addOfAKind(5)
   end
 
   def test_sixes_test
-    assert 0 == Yatzy.new(4,4,4,5,5).sixes()
-    assert 6 == Yatzy.new(4,4,6,5,5).sixes()
-    assert 18 == Yatzy.new(6,5,6,6,5).sixes()
+    assert 0 == Yatzy.new(4,4,4,5,5).addOfAKind(6)
+    assert 6 == Yatzy.new(4,4,6,5,5).addOfAKind(6)
+    assert 18 == Yatzy.new(6,5,6,6,5).addOfAKind(6)
   end
 
   def test_one_pair

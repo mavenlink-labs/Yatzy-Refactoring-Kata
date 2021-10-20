@@ -30,42 +30,8 @@ class Yatzy
     return sum
   end
 
-  def initialize(d1, d2, d3, d4, _5)
-    @dice = [0]*5
-    @dice[0] = d1
-    @dice[1] = d2
-    @dice[2] = d3
-    @dice[3] = d4
-    @dice[4] = _5
-  end
-
-  def fours
-    sum = 0
-    @dice.each do |die|
-      sum += die if die == 4
-    end
-    return sum
-  end
-
-  def fives()
-    s = 0
-    i = 0
-    for i in (Range.new(0, @dice.size))
-      if (@dice[i] == 5)
-        s = s + 5
-      end
-    end
-    s
-  end
-
-  def sixes
-    sum = 0
-    for at in 0..@dice.length
-      if (@dice[at] == 6)
-        sum = sum + 6
-      end
-    end
-    return sum
+  def initialize(d1, d2, d3, d4, d5)
+    @dice = [d1, d2, d3, d4, d5]
   end
 
   def self.score_pair( d1,  d2,  d3,  d4,  d5)
