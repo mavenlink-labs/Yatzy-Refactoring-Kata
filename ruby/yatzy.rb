@@ -34,7 +34,7 @@ class Yatzy
     @dice = [d1, d2, d3, d4, d5]
   end
 
-  def self.counts(d1, d2, d3, d4, d5)
+  def counts(d1, d2, d3, d4, d5)
     counts = [0]*6
     counts[d1-1] += 1
     counts[d2-1] += 1
@@ -43,9 +43,9 @@ class Yatzy
     counts[d5-1] += 1
     return counts
   end
-  
+
   def score_pair( d1,  d2,  d3,  d4,  d5)
-    counts = self.counts(d1, d2, d3, d4, d5)
+    counts = counts(d1, d2, d3, d4, d5)
     at = 0
     (0...6).each do |at|
       if (counts[6-at-1] >= 2)
@@ -55,13 +55,8 @@ class Yatzy
     return 0
   end
 
-  def self.two_pair( d1,  d2,  d3,  d4,  d5)
-    counts = [0]*6
-    counts[d1-1] += 1
-    counts[d2-1] += 1
-    counts[d3-1] += 1
-    counts[d4-1] += 1
-    counts[d5-1] += 1
+  def two_pair( d1,  d2,  d3,  d4,  d5)
+    counts = counts(d1, d2, d3, d4, d5)
     n = 0
     score = 0
     for i in Array 0..5
@@ -77,13 +72,8 @@ class Yatzy
     end
   end
 
-  def self.four_of_a_kind( _1,  _2,  d3,  d4,  d5)
-    tallies = [0]*6
-    tallies[_1-1] += 1
-    tallies[_2-1] += 1
-    tallies[d3-1] += 1
-    tallies[d4-1] += 1
-    tallies[d5-1] += 1
+  def four_of_a_kind( _1,  _2,  d3,  d4,  d5)
+    tallies = counts(_1, _2, d3, d4, d5)
     for i in (0..6)
       if (tallies[i] >= 4)
         return (i+1) * 4
@@ -92,7 +82,7 @@ class Yatzy
     return 0
   end
 
-  def self.three_of_a_kind( d1,  d2,  d3,  d4,  d5)
+  def three_of_a_kind( d1,  d2,  d3,  d4,  d5)
     t = [0]*6
     t[d1-1] += 1
     t[d2-1] += 1
