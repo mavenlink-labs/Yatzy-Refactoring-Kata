@@ -3,9 +3,9 @@ class Yatzy
     @dice.reduce(&:+)
   end
 
-  def yatzy(dice)
-    counts = [0]*(dice.length+1)
-    for die in dice do
+  def yatzy()
+    counts = [0]*(@dice.length+1)
+    for die in @dice do
       counts[die-1] += 1
     end
     for i in 0..counts.size do
@@ -88,7 +88,7 @@ class Yatzy
 
   def smallStraight( d1,  d2,  d3,  d4,  d5)
     tallies = counts(d1,  d2,  d3,  d4,  d5)
-    
+
     (tallies[0] == 1 and
       tallies[1] == 1 and
       tallies[2] == 1 and
@@ -109,7 +109,7 @@ class Yatzy
     return 0
   end
 
-  def self.fullHouse( d1,  d2,  d3,  d4,  d5)
+  def fullHouse()
     tallies = []
     _2 = false
     i = 0
@@ -117,12 +117,7 @@ class Yatzy
     _3 = false
     _3_at = 0
 
-    tallies = [0]*6
-    tallies[d1-1] += 1
-    tallies[d2-1] += 1
-    tallies[d3-1] += 1
-    tallies[d4-1] += 1
-    tallies[d5-1] += 1
+    tallies = counts(*@dice)
 
     for i in Array 0..5
       if (tallies[i] == 2)

@@ -11,10 +11,10 @@ class YatzyTest < Test::Unit::TestCase
 
   def test_yatzy_scores_50
     expected = 50
-    actual = Yatzy.new(4,4,4,4,4).yatzy([4,4,4,4,4])
+    actual = Yatzy.new(4,4,4,4,4).yatzy
     assert expected == actual
-    assert 50 == Yatzy.new(6,6,6,6,6).yatzy([6,6,6,6,6])
-    assert 0 == Yatzy.new(6,6,6,6,3).yatzy([6,6,6,6,3])
+    assert 50 == Yatzy.new(6,6,6,6,6).yatzy
+    assert 0 == Yatzy.new(6,6,6,6,3).yatzy
   end
 
   def test_1s
@@ -89,7 +89,7 @@ class YatzyTest < Test::Unit::TestCase
   end
 
   def test_fullHouse()
-    assert 18 == Yatzy.fullHouse(6,2,2,2,6)
-    assert 0 == Yatzy.fullHouse(2,3,4,5,6)
+    assert 18 == Yatzy.new(6,2,2,2,6).fullHouse()
+    assert 0 == Yatzy.new(2,3,4,5,6).fullHouse()
   end
 end
