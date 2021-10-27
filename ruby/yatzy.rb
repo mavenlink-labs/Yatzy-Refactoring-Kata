@@ -28,13 +28,13 @@ class Yatzy
     @dice = [d1, d2, d3, d4, d5]
   end
 
-  def counts(d1, d2, d3, d4, d5)
+  def counts(*args)
     counts = [0]*6
-    counts[d1-1] += 1
-    counts[d2-1] += 1
-    counts[d3-1] += 1
-    counts[d4-1] += 1
-    counts[d5-1] += 1
+    counts[@dice[0]-1] += 1
+    counts[@dice[1]-1]+= 1
+    counts[@dice[2]-1] += 1
+    counts[@dice[3]-1] += 1
+    counts[@dice[4]-1] += 1
     return counts
   end
 
@@ -86,8 +86,8 @@ class Yatzy
     0
   end
 
-  def smallStraight( d1,  d2,  d3,  d4,  d5)
-    tallies = counts(d1,  d2,  d3,  d4,  d5)
+  def smallStraight
+    tallies = counts(*@dice)
 
     (tallies[0] == 1 and
       tallies[1] == 1 and
@@ -96,13 +96,8 @@ class Yatzy
       tallies[4] == 1) ? 15 : 0
   end
 
-  def largeStraight( d1,  d2,  d3,  d4,  d5)
-    tallies = [0]*6
-    tallies[d1-1] += 1
-    tallies[d2-1] += 1
-    tallies[d3-1] += 1
-    tallies[d4-1] += 1
-    tallies[d5-1] += 1
+  def largeStraight
+    tallies = counts(*@dice)
     if (tallies[1] == 1 and tallies[2] == 1 and tallies[3] == 1 and tallies[4] == 1 and tallies[5] == 1)
       return 20
     end
